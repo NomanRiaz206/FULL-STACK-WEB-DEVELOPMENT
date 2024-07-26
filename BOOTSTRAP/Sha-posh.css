@@ -1,0 +1,22 @@
+.free-shipping {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+/* .logo img{
+    margin-bottom: 10px;
+    margin-left: 400px;
+} */
+.container1{
+    height: 200px;
+    width: 100%;
+    /* background-color: blue; */
+    align-content: center;
+   justify-content: center;
+
+}
+container1 h2{
+    justify-content: center;
+    
+}

@@ -1,0 +1,127 @@
+
+.home-container{
+    display: flex;
+    flex-wrap: wrap;
+     /* gap: 10px;  */
+    justify-content: center;
+    align-items: center;
+  
+} 
+.address-bar{
+    display: flex;
+    background-color:lightgray;
+    width:100%;
+    height: 50px;
+    color: black;
+   align-items: center;
+    gap:5px;
+}
+.address-bar i{
+    margin-left: 50px;
+}
+.address-bar p{
+  display: flex;
+}
+.social-icon{
+    align-items: center;
+    margin-left: 700px;
+}
+.social-icon i{
+    gap:0px;
+}
+.nav-bar{
+    display: flex;
+    background-color:white;
+    width:100%;
+    height:100px;
+    align-items: center;
+}
+.logo img{
+    width:100px;
+    /* height:20px;
+    margin-left: 10px; */
+  
+}
+.navbar-container{
+display: flex;
+gap:40px;
+margin-left: 100px;
+align-items: center;
+}
+.icon {
+    margin-left: 100px;
+  
+}
+.icon i{
+gap:40px;
+}
+
+.content{
+    display:flex;
+    margin-top: 80px;
+
+}
+.brands{
+    display:flex;
+   margin-left:700px;
+   gap:15px;
+
+}
+.slider{
+    margin-top: 80px;
+}
+.products{
+    display: flex;
+    justify-content: space-around;
+  }
+  .product{
+    width: 23%;
+  }
+  .img img{
+    width: 100%;
+  
+  }
+  img :hover{
+    
+  }
+  .card-section{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card{
+    width: 30%;
+  }
+  .img img{
+    margin-top: 30px;
+    width: 100%;
+    justify-content:space-around;
+  
+  }
+  .button-container{
+    margin-top:50px;
+    width:100%;
+    height: 100px;
+  
+    align-content:center;
+    
+
+   
+  }
+  .button button{
+    margin-left: 550px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    width:150px;
+    height:60px;
+  }
+  .collection{
+     margin-top: 50px;
+     align-content: center;
+    
+  }
+  .footer-container{
+    width:100%;
+    height:300px;
+    
+  }

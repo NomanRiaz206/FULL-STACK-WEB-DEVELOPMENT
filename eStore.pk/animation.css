@@ -1,0 +1,36 @@
+/* .container{
+
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px 20px;
+
+
+
+} */
+box
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sample 
+{
+    /* from{border-radius: 0%;}
+    to{border-radius: 50%;} */
+    0%{border-radius: 0%;}
+    40%{width: 400px; background-color: black;}
+    70%{background-image: url(./images/blogpic2.webp); }
+    100%{border-radius: 50%;}
+}
+
+.box1{
+    width: 400px;
+    background-image: url(./1.png);
+    height:300px;
+}

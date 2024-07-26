@@ -1,0 +1,151 @@
+{
+    margin: 0%;
+    padding: 0%;
+}
+ 
+.burgur-btn{
+
+    width:30px;
+    height:30px;
+}
+.header-login img {
+
+    width:60px;
+    height: 40px;
+}
+
+.delivery-btn{
+    width: 30px;
+  height: 30px;
+}
+.pickup-btn{
+    width: 30px;
+  height: 30px;
+}
+
+/* .btn-outline-secondary {
+    border: none;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: black;
+} */
+
+/* .btn-outline-secondary.active,
+.btn-outline-secondary:active {
+    background-color:#e30613 !important;
+} */
+/* @media (max-width:fullscreen) {
+    .btn-outline-secondary {
+        margin-bottom: 10px;
+    }
+} */
+ 
+.mid-area{
+   background-color: rgb(237, 235, 235);
+   height: 150px;
+   align-content: center;
+   color: black;
+}
+
+.order-button{
+    display: flex;
+    gap:10px;
+    margin-left: 50px; 
+}
+.order-area{
+    gap:20px;
+}
+
+.pk{
+ 
+    height: 400px;
+    display: flex;
+}
+.card-wrapper{
+    display:flex;
+    margin-top: 50px;
+    background-color: black;
+}
+
+.card{
+    width:20%;
+    background-color: black;
+    border:100%;
+    border-bottom-right-radius: 0%;
+
+
+}
+.img img{
+    width:100%;
+    background-color: black;
+    border-radius: 100%;
+    border-bottom-right-radius: 0%;
+}
+/* .card-body{
+    background-color: black;
+    */
+
+/* .card-body p{
+    color:wh;
+} */
+
+/* 
+.custom1{
+    
+    border-radius: 100%;
+    border-bottom-right-radius: 0%;
+    border: transparent;
+    background-color:black;
+ } */
+
+ /* .navbar-brand span {
+    color: #ff69b4; /* Custom color for "Posh" */
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff69b4; /* Hover color */
+}
+.navbar-toggler {
+    border-color: transparent;
+}
+.free-shipping {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+} */
+
+.navbar-brand {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.navbar-brand span {
+    color: #ff69b4; /* Custom color for "Posh" */
+}
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff69b4; /* Hover color */
+}
+.free-shipping {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+.navbar-nav .nav-item {
+    margin: 0 10px;
+}
