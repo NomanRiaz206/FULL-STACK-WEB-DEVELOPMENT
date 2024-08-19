@@ -5,9 +5,11 @@ import Home from './components/Home';
 import Form from './components/Form';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
-import Products from './Pages/Products';
+import Products from './Pages/Product';
 import Login from './Auth/Login';
 import Signup from './Auth/Signup';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 const App = ()=>{
   return(
  <div>
@@ -22,6 +24,7 @@ const App = ()=>{
 
 
    </Routes>
+   <ToastContainer/>
  </div>
  
   )

@@ -1,18 +1,20 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 const Login = () => {
 const [auth, setAuth]=useState({
     email: "",
     password: "",
 });
-const formhander =(e)=>{
-        e.preventDefault(); 
-        console.log(auth)
-        setAuth({
-            email:"",
-            password:"",
-        })
-       // to prevent page reload on form submission.
-    }
+const formhander = (e) => {
+  e.preventDefault();
+  console.log(auth);
+  setAuth({
+    email: "",
+    password: "",
+  });
+  toast.success("user login successfully");
+  // to prevent page reload on form submission.
+};
   return (
     <div className="container">
       <h1 className="text-center ">Login Screen</h1>
